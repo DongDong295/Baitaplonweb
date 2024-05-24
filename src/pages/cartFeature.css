@@ -1,0 +1,57 @@
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    outline: 2px solid #ccc; /* Tạo viền ngoài cho mỗi mục trong giỏ hàng */
+    padding: 10px; /* Tạo khoảng cách giữa nội dung và viền */
+  }
+  
+  .cart-item img {
+    width: 100px; /* Đặt kích thước cho ảnh, có thể thay đổi theo nhu cầu */
+    height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị biến dạng */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và nội dung khác */
+  }
+  
+  .cart-item .product-info {
+    flex-grow: 1; /* Đảm bảo nội dung linh hoạt theo chiều ngang */
+  }
+  
+  /* Style for the product name */
+  .cart-item .product-info h4 {
+    margin-bottom: 5px; /* Khoảng cách giữa tên sản phẩm và các thông tin khác */
+  }
+
+  .cart-item .product-info div {
+    margin-bottom: 5px; /* Khoảng cách giữa các thông tin */
+  }
+
+  
+  .box {
+    display: flex; /* Sử dụng flexbox để các phần nằm cùng hàng */
+    align-items: center; /* Căn chỉnh các phần theo chiều dọc */
+  }
+  
+  /* Style for the text "Số lượng" */
+  .quantity-label {
+    margin-right: 10px; /* Khoảng cách giữa "Số lượng" và nút điều chỉnh */
+  }
+  
+  /* Style for the quantity box */
+  .quantity-box {
+    margin: 0 10px; /* Khoảng cách giữa nút điều chỉnh và quantity box */
+    margin-top: 5px;
+    align-self: center; /* Căn chỉnh quantity box theo trục dọc */
+  }
+  
+  /* Style for the adjustment buttons */
+  .button-adj {
+    width: 30px; /* Độ rộng của nút điều chỉnh */
+    height: 30px; /* Chiều cao của nút điều chỉnh */
+    display: flex; /* Sử dụng flexbox để căn chỉnh nút điều chỉnh */
+    align-items: center; /* Căn chỉnh các phần tử trong nút theo trục dọc */
+    justify-content: center; /* Căn chỉnh các phần tử trong nút theo trục ngang */
+    cursor: pointer; /* Đổi con trỏ thành dấu nhấp chuột khi di chuột vào nút */
+  }
+  
+  

@@ -1,0 +1,39 @@
+.quantity-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-box {
+    border: 1px solid #ccc;
+    width: 30px; /* Đảm bảo chiều rộng của hộp số bằng với kích thước của nút */
+    height: 30px; /* Đảm bảo chiều cao của hộp số bằng với kích thước của nút */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* Đảm bảo rộng của nút là cố định */
+    height: 30px;
+  }
+
+  .buy-container {
+    border: 2px solid #ccc; /* Màu và kích thước viền */
+    border-radius: 8px; /* Độ cong của các góc */
+    padding: 20px; /* Khoảng cách giữa nội dung và viền */
+    width: 100%;
+}
+
+.total-amount{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.cate{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

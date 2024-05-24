@@ -1,0 +1,13 @@
+.product{
+    text-decoration: none;
+}
+
+.pagination-container {
+    margin-top: 20px; /* Khoảng cách giữa sản phẩm và phân trang */
+  }
+  
+  .pagination {
+    margin-top: 100px;
+    display: flex; /* Sử dụng flexbox */
+    justify-content: center; /* Căn chỉnh phân trang giữa trang */
+  }

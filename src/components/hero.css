@@ -1,0 +1,26 @@
+.hero-list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.hero-list li{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 8px;
+}
+
+.checkbox-list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+}
+
+.checkbox-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .checkbox-list li input[type="checkbox"] {
+    margin-right: 8px;
+  }

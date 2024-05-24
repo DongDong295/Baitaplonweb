@@ -1,0 +1,38 @@
+/* Footer.css */
+footer {
+    margin-top: 200px;
+    width: 100%; /* Chiều rộng của footer bằng 100% của trang */
+    background-color: #f0f0f0; /* Màu nền của footer */
+    padding: 20px 0; /* Khoảng cách giữa nội dung và viền của footer */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Đặt giới hạn chiều rộng cho footer */
+    margin: 0 auto; /* Căn giữa footer trên trang */
+  }
+  
+  .footer-column {
+    flex: 1; /* Cột sẽ có độ rộng linh hoạt và cách nhau theo tỉ lệ bằng nhau */
+    margin-right: 20px; /* Khoảng cách giữa các cột */
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách ở cột cuối cùng */
+  }
+
+  .footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  

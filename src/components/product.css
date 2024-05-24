@@ -1,0 +1,134 @@
+.product-display {
+    padding-top: 50px;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: contain;
+    display: flex;
+  }
+  
+  .rating {
+    margin-right: 5px;
+    align-items: center;
+    
+  }
+  
+  .rating-point {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .quantity-sold {
+    font-size: medium;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .thong-tin-header {
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 30px;
+  }
+  
+  .body .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    max-width: 100%;
+    width: 100%;
+    max-height: 45px;
+    box-sizing: border-box
+  }
+
+  .description img{
+    max-width: 100%;
+  }
+
+  .product-header{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 210px;
+        height: 210px;
+  }
+  
+  .title{
+    font-weight: bold;
+    font-size: large;
+  }
+
+  @media (max-width: 1200px) {
+    .product-display {
+      padding-top: 5%; /* sử dụng phần trăm thay vì px để đảm bảo responsivity */
+    }
+    
+    .image-container {
+      width: 100%;
+      height: 0;
+      padding-top: 100%; /* giữ khung hình vuông */
+      position: relative;
+      border: 2px solid black;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+  
+    .image-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  
+    .rating {
+      margin-right: 2.5%; /* sử dụng phần trăm */
+      align-items: center;
+    }
+  
+    .rating-point {
+      margin-right: 2.5%; /* sử dụng phần trăm */
+      font-weight: bold;
+    }
+  
+    .quantity-sold {
+      font-size: 1em; /* sử dụng giá trị tương đối */
+    }
+  
+    .price {
+      font-weight: bold;
+      font-size: 1.5em; /* sử dụng giá trị tương đối */
+    }
+  
+    .thong-tin-header {
+      font-weight: bolder;
+      font-size: 1em; /* sử dụng giá trị tương đối */
+      margin-top: 5%; /* sử dụng phần trăm */
+    }
+
+    .body .list-group-item span {
+      flex: 1;
+      justify-content: space-between;
+    }
+  }
+
+  
